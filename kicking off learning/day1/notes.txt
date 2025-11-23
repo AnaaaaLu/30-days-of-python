@@ -1,0 +1,17 @@
+integers and floats are the basis: 
+    int = whole
+        * just write the number, no need to declare
+            4 
+            -6
+    float = real
+        * also just write the number, no need to declare
+        2.0
+        -156457.3
+
+Print is a built in function in python, to call it just write: 
+    print(3.141) -> dont put an " " between the function and expression, its a bad practice
+
+Multiple operations in python obey the following the PEMDAS sequence: 
+    Parentheses, Exponents, Multiplication/Division, Addition/Subtraction
+
+You should always put spaces between opeartors and numbers, to have a better readability. 
