@@ -1,0 +1,28 @@
+String basics:
+    need to be in quotes (""), just like in java
+    doesn't matter if they are in '' or "", just don't start with one and end with the other 
+    if a string has a space in it, it's not empty 
+
+Naming Values: 
+    just write the name and add an = to the expression, no need to declare anything
+    rules: 
+        only letters, numbers and _ 
+        can't start with a number, but can start with _ 
+        are case sensitive 
+        CAN'T HAVE - 
+    conventions: 
+        avoid using variables that don't have any meaning, they should make the code easier to read, not harder
+        always start with a lowercase 
+
+retrieving valuables: 
+    literally just write its name 
+    remember to declare it before calling, python is linear
+
+User Input: 
+    literarally just use the function input(), it makes so you can type in the console
+    you can write the context directly in the function like: 
+        input("whatever")
+        * but then the user will write ditectly next to the phrase printed 
+    input evaluates to string natively 
+    whatever = input("whatever  ") -> will assign a value to the variable
+    

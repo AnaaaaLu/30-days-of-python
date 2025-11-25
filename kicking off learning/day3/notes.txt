@@ -1,0 +1,44 @@
+string concatenation:
+    joining strings together
+    can use the + for it
+
+Converting strings, integers and floats:
+    int to string: 
+        -> using the str function
+            str(integer)
+    string to int:
+        -> using the int function
+            int(string)
+    int to float:
+        -> using the float function
+            float(integer)
+
+string interpolation:
+    inserting new content into an existing string
+    uses the "format" method
+    uses {} for placeholders
+        "{} string {}".format()
+    the placeholder can have information inside it, so they can be located
+
+f-strings:
+    placeholder = "whatever"
+    placeholder2 = "whatever2"
+    f"{placeholder} string {placeholder2} string"
+    the f before tells that you want to format the whole instance
+
+comments: 
+    start with #
+
+basic string processing 
+    "string    ".lower()        -> makes it lowercase
+                .upper()        -> makes uppercase
+                .capitalize()   -> capitalizes its first word
+                .title()        -> capitalizes every word
+                .strip()        -> by default removes the empty space in a string, can remove anything, but by defauld does this
+
+processing multiple times:
+    create a variable for the string and then add as many of the processing thingy to the variable
+        string_variable = "     string     "
+        string_variable.strip().upper
+    another way to do this, is just to add as many as you want formatters to the string in the above section
+    
