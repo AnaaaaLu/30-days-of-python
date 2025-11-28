@@ -1,0 +1,99 @@
+Lists: 
+    can have different types of values
+    each value in "" and are separated with , (its recommended to put 
+        an space after the comma, though not required)
+    stored inside []
+    can be empty
+    do all of the list in single line or with every value in a new line, 
+        for a better redability 
+
+Acessing Values in a List:
+    all values are indexed, starting with an 0 
+    Subscription Expression = how to acess an specific value in a 
+        list
+            write the name of the list and add [item location]
+            to do an negative index, put an - in the number, so the 
+                function will work backwards, -1 = the last item, 
+                and so on
+
+Adding Items to Lists:
+    Append Method: 
+        adds an item to the end of the list 
+        .append(value) after the name of the list 
+
+    you can also use list = list + ["value"]
+        this method creates a new list that substitutes the one that 
+            existed before
+    
+    Extend Method:
+        can be used to add more than one item in the end, used just 
+            like append
+    
+    Insert Method:
+    used to add in the middle of the list 
+    can be more tricky, because you need to say in what position you 
+        want it in 
+    list name.insert(position, value)
+    * if you add in an index that doesnt exist in there, the item 
+        will be added in the end 
+
+Removing Items from a List:
+    Remove Method:
+        used as any other method viewed before 
+        removes the item that matches the value added in the ()
+        after, everything shuffles to the side so we wont have an 
+            empty space
+    
+    Del Keyword:
+        can remove enything and everything if needed 
+        if used like so: del listName[indexValue], will remove only 
+            the indexed value said in there
+    
+    Pop Method:
+        if used raw removes the last item in the list 
+            -> listName.pop()
+        if you put the index number in the (), will remove that 
+            value instead
+        
+        OTHER USE: 
+            pop evaluates the list item, so you can use this method 
+                to call the last name of said list, like so: 
+                    lastInList = listname.pop()
+    
+    Clear Method: 
+        will clear the list. 
+
+Tuples: 
+    similar to lists, can be written just like them, but the [] 
+        arent required, can be substituted with (), or just not 
+        have them. 
+    only , are important
+    can be put inside lists, to put multiple values together as an 
+        single value
+            * in this case you cant forget the (), otherwise you 
+                will have only an list, not an list with tuples 
+                inside it
+    to write an tuple with only one subject it should be written 
+        like so: 
+            tupleName = ("subject", ) or tupleName = "subject", 
+
+Acessing Values in a Tuple:
+    can be acessed just like and list, by indexing 
+
+Tuples vs Lists: 
+    Tuples are IMMUTABLE, once created cant be changed
+    so, you cant use .append or .pop, and del will delete the whole 
+        thing
+    you can only use + to join 2 tuples
+    tuples are better when you need that an convention will be 
+        mainteined throughout the whole thing
+            *useful for libraries
+
+Acessing values in nested collections:
+    you need to acess it via index, like so listNam[index]
+    to acess an specific value in a tuple inside an list, you need 
+        to use double indexes
+            listName[listIndex][tupleIndex]
+                *its equivalent of doing so: 
+                    listName = listName[]
+                    listName[]
