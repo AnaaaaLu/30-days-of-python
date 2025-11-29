@@ -1,0 +1,40 @@
+Defining a For Loop:
+    for whatever in wherever:
+        statement to be looped
+    In keyword -> says from what code we want to grab the stuff from
+    there needs to be indentation in the for loop 
+    when a for loop is run, we start iterating over the iterable we provided, and assign it to the name we defined as part of the loop 
+        * the iterable is where we are pulling the values from
+    the loop ends when we run out of values
+    you can loop a list
+    you can indent an if statement in a loop
+
+Style Note:
+    remember to accurately describe what data you are working with, a good way to do it is to relate its name with the iterable
+    
+The Break Statement
+    used to end a loop, to prevent unnecessary operations
+
+Range Function:
+    produces a series of integers according to a pattern
+    the easiest way to define a range is providing its stop value
+        range(stopValue)
+    if you give it a number to stop, it will start running from 0 
+    you can also assign an start value
+        range(startValue, stopValue)
+    it's also possible to assign a step value
+        range(startValue, stopValue, stepValue)
+            * the step value can be positive or negative
+    when a range is printed, it will only give us the next value in it
+    can be used in for loops and be converted into a list or tuple
+        variableName = list(range(stopValue))
+        variableName = tuple(range(stopValue))
+
+Using Range in For loops
+    for variableName in range(stopValue)
+        statement to be looped
+    * the output of this code will happen the stopValue of times
+
+Style Note:
+    descriptive names, dont forget
+
