@@ -1,0 +1,30 @@
+While Loops:
+    useful for when you want to perform an action as many times as needed 
+        until a condition is met, or while a condition is true 
+    simpler than a for loop 
+        you just need to use the while keyword, followed by a condition to be tested 
+            while datatype(variableName) condition: 
+                what to do if the condition is met   
+    if the condition is a truthy value the loop will run and then test 
+        the condition again
+    you need to declare the variable before using it in the loop 
+    
+Infinite Loops:
+    dont need to use comparisons, just specify a value and the truthiness 
+        of it will determinate if the loop keeps going or not
+    all expressions are going to evaluate to something 
+    function calls, arithmetic operations or we can refer to variables. 
+    for an infinite loop we want an expression that will always be a 
+        truthy value 
+        a good example is the boolean "true" value 
+    its good practice to pair an infinite loop with an break or an else 
+        statement
+
+The continue keyword:
+    while "break" allows to exit a loop, continue allows to skip the 
+        remainer of the loop body for the current iteration 
+    can help simplify the code 
+
+Using an else clause with loops:
+    else is a no break clause 
+    only runs if there isnt an break clause during the execution
