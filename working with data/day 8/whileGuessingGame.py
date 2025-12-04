@@ -15,6 +15,6 @@ while guess != targetNumber:
     else: 
         print("Too Low!")
     
-    guess = int(input("Try Again!"))
+    guess = int(input("Try Again: "))
 
 print("You guessed correctly!")
