@@ -1,0 +1,32 @@
+Converting Tuples into Strings:
+    join method is the best
+        .join(tupleOrListName)
+    * can be put inside {} to be printed just like any place holder 
+    using .join we can only join collections of strings, so numbers need to be converted into strings before being called 
+
+Splitting up a string:
+    .split:
+        you might prefer to turn strings into a collection instead if reverser method
+            listName = stringName.split("splitter")
+        split wont remove any spaces in the input, for that you need to pair it with strip
+        if how you want to split isnt specified, it will automatically be split with spaces
+    calling split isnt always necessary you can just pass the string to the list or tuple function instead
+
+The newline character:
+    \n 
+     * can be used in the middle of strings ass well, doesnt need to be declared before 
+     ** it can also be used to split strings
+
+Slicing: 
+    to just grab a part of an collection
+    needs to provide a range of indices instead of a single one 
+    written as: [firstIndex : lastIndex]
+     * you can also just provide the last index if you want to start the index from the beggining of the string to be splitted
+    with slices the stop index isn't inclusive 
+    with an negative stop index, it'll subtract the number before the - from the end of the portion 
+    to copy an entire collection you can slice the whole sequence using: [:]
+
+The len function:
+    len is short for length, it works for strings, tuples, lists and and other types
+     * but not int
+    used to return an int representing the number of items in the collection
